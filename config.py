@@ -22,7 +22,7 @@ CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002341804786"))
 OWNER_ID = int(os.environ.get("OWNER_ID", "7827448605"))
 
 #Port
-PORT = os.environ.get("PORT", "1080")
+PORT = os.environ.get("PORT", "832")
 
 #Database 
 DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://sagatobots00001:sagatobots100@cluster00001.vgdshkw.mongodb.net/?retryWrites=true&w=majority&appName=Cluster00001")
@@ -35,8 +35,8 @@ FORCESUB_CHANNEL2 = int(os.environ.get("FORCESUB_CHANNEL2", "-1002446314190"))
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 
 #pics
-START_PIC = os.environ.get("START_PIC", "https://envs.sh/Tfv.jpg")
-FORCE_PIC = os.environ.get("FORCE_PIC", "https://envs.sh/seQ.jpg")
+START_PIC = os.environ.get("START_PIC", "https://i.postimg.cc/FHQtg8K2/IMG-20250327-200405-477.jpg")
+FORCE_PIC = os.environ.get("FORCE_PIC", "https://i.postimg.cc/FHQtg8K2/IMG-20250327-200405-477.jpg")
 
 #text
 HELP_TXT = "<b>ʜɪ ᴅᴜᴅᴇ!!\nᴛʜɪs ɪs ᴀ ғɪʟᴇ ᴛᴏ ʟɪɴᴋ ʙᴏᴛ ᴡʜɪᴄʜ ᴏɴʟʏ ᴡᴏʀᴋ ғᴏʀ : [ @Adult_Flux ]\n\n❏ ʙᴏᴛ ᴄᴏᴍᴍᴀɴᴅs\n├/start : sᴛᴀʀᴛ ᴛʜᴇ ʙᴏᴛ\n├/about : ᴏᴜʀ Iɴғᴏʀᴍᴀᴛɪᴏɴ\n└/help : ʜᴇʟᴘ ʀᴇʟᴀᴛᴇᴅ ʙᴏᴛ\n\n💥 sɪᴍᴘʟʏ ᴄʟɪᴄᴋ ᴏɴ ʟɪɴᴋ ᴀɴᴅ sᴛᴀʀᴛ ᴛʜᴇ ʙᴏᴛ ᴊᴏɪɴ ʙᴏᴛʜ ᴄʜᴀɴɴᴇʟs ᴀɴᴅ ᴛʀʏ ᴀɢᴀɪɴ ᴛʜᴀᴛs ɪᴛ.....!\n\n🧑‍💻 ᴏᴡɴᴇᴅ ʙʏ : [ @Adult_Flux ]</b>"
