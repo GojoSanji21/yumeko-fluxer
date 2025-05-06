@@ -65,7 +65,7 @@ PROTECT_CONTENT = True if os.environ.get('PROTECT_CONTENT', "False") == "True" e
 DISABLE_CHANNEL_BUTTON = os.environ.get("DISABLE_CHANNEL_BUTTON", None) == 'True'
 
 #Short Url or Api
-SHORT_URL = os.environ.get("SHORTNER_URL", "inkcents.com")
+SHORT_URL = os.environ.get("SHORTNER_URL", "linkcents.com")
 SHORT_API = os.environ.get("SHORTNER_API", "6e59df81d3b335124e4e94ad2bdbe017967c0e61")
 
 BOT_STATS_TEXT = "<b>BOT UPTIME</b>\n{uptime}"
