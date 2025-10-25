@@ -29,7 +29,7 @@ DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://sagatobots00001:sagatobot
 DB_NAME = os.environ.get("DATABASE_NAME", "Yumeko_Jabami_Probot")
 
 #force sub channel id, if you want enable force sub
-FORCESUB_CHANNEL = int(os.environ.get("FORCESUB_CHANNEL", "-1002363992520"))
+FORCESUB_CHANNEL = int(os.environ.get("FORCESUB_CHANNEL", "-1002297335117"))
 FORCESUB_CHANNEL2 = int(os.environ.get("FORCESUB_CHANNEL2", "-1002446314190"))
 
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
@@ -65,7 +65,7 @@ PROTECT_CONTENT = True if os.environ.get('PROTECT_CONTENT', "False") == "True" e
 DISABLE_CHANNEL_BUTTON = os.environ.get("DISABLE_CHANNEL_BUTTON", None) == 'True'
 
 #Short Url or Api
-SHORT_URL = os.environ.get("SHORTNER_URL", "arolinks.com")
+SHORT_URL = os.environ.get("SHORTNER_URL", "inshorturl.com")
 SHORT_API = os.environ.get("SHORTNER_API", "6181ee40bf341a08f8ca40f01b34c516b33ac548")
 
 BOT_STATS_TEXT = "<b>BOT UPTIME</b>\n{uptime}"
