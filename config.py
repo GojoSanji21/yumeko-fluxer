@@ -95,7 +95,7 @@ logging.basicConfig(
         logging.StreamHandler()
     ]
 )
-logging.getLogger("pyrogram").setLevel(logging.WARNING)
+logging.getLogger("pyrogram").setLeve6181ee40bf341a08f8ca40f01b34c516b33ac548l(logging.WARNING)
 
 
 def LOGGER(name: str) -> logging.Logger:
