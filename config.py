@@ -68,6 +68,9 @@ DISABLE_CHANNEL_BUTTON = os.environ.get("DISABLE_CHANNEL_BUTTON", None) == 'True
 SHORT_URL = os.environ.get("SHORTNER_URL", "arolinks.com")
 SHORT_API = os.environ.get("SHORTNER_API", "87233ee8879a0c20fffb854e9c14052152133ed2")
 
+#Vercel Proxy Url
+VERCEL_PROXY_URL = os.environ.get("VERCEL_PROXY_URL", "https://ezy-gules.vercel.app")
+
 BOT_STATS_TEXT = "<b>BOT UPTIME</b>\n{uptime}"
 USER_REPLY_TEXT = "Pʟᴇᴀꜱᴇ ᴅᴏɴ'ᴛ ᴍᴇꜱꜱᴀɢᴇ ᴍᴇ ᴅɪʀᴇᴄᴛʟʏ ɪ ᴀᴍ ᴏɴʟʏ ᴡᴏʀᴋ ꜰᴏʀ - [ @Adult_Flux ]"
 
